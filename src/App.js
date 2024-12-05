@@ -36,7 +36,7 @@ const App = () => {
       <CssBaseline />
       <div className="app">
         <Navbar />
-        <Container maxWidth="sm" sx={{ paddingTop: '32px' }}>
+        <Container  sx={{ paddingTop: '32px' }}>
           <SearchBox searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
           <Filters category={category} setCategory={setCategory} />
           <BlogList blogs={filteredBlogs} onCardClick={handleCardClick} />

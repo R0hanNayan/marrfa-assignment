@@ -6,12 +6,17 @@ const Navbar = () => {
         <AppBar
             position="static"
             sx={{
+                position:'relative',
+                top:'1rem',
+                width:'85%',
+                margin:'0 auto',
                 display:'flex',
                 justifyContent:'center',
                 alignItems:'center',
                 background: 'rgba(255, 255, 255, 0.1)',
                 backdropFilter: 'blur(10px)',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
+                borderRadius:'3rem',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
                 padding: '0 16px',
             }}
